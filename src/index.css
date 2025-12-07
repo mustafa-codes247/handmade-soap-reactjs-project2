@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+ 
+  font-weight: bold;
+  font-size: 25px;
+}
+
+li{
+  font-weight: bold;
+}
+
+button{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body.light{
+  background-color: white;
+  color:black;
+}
+body.dark{
+  background-color: black;
+  color:white;
+}
